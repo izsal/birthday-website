@@ -11,11 +11,11 @@ import foto1 from "./images/1163faa6-0658-4cb5-9caa-ce5d7e3f056e.JPG";
 import foto2 from "./images/1c8474c4-e3b7-4b23-9683-cb906565fc3c.JPG";
 import foto3 from "./images/1FFFD20D-6F86-4963-9099-A2964BD0FE95.JPG";
 import foto4 from "./images/cd17c715-bfe5-45c5-bb07-94fb8bda7b0c.JPG";
-import foto5 from "./images/IMG_0850.png";
-import foto6 from "./images/IMG_0950.png";
-import foto7 from "./images/IMG_0949.png";
-import foto8 from "./images/IMG_0709.png";
-import foto9 from "./images/IMG_9263.png";
+import foto5 from "./images/IMG_0850.PNG";
+import foto6 from "./images/IMG_0950.PNG";
+import foto7 from "./images/IMG_0949.PNG";
+import foto8 from "./images/IMG_0709.PNG";
+import foto9 from "./images/IMG_9263.PNG";
 import foto10 from "./images/IMG_9797.JPG";
 
 const BirthdayWebsite = () => {
