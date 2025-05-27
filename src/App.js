@@ -15,7 +15,7 @@ import foto5 from "./images/foto5.png";
 import foto6 from "./images/foto6.png";
 import foto7 from "./images/foto7.png";
 import foto8 from "./images/foto8.png";
-import foto9 from "./images/foto9.JPG";
+import foto9 from "./images/foto9.jpg";
 import foto10 from "./images/foto10.JPG";
 
 const BirthdayWebsite = () => {
@@ -258,11 +258,12 @@ const BirthdayWebsite = () => {
 
         {/* Image slideshow */}
         <div className="relative bg-white/10 backdrop-blur-sm rounded-3xl p-6 md:p-8 shadow-2xl border border-white/20">
-          <div className="relative overflow-hidden rounded-2xl">
+          <div className="relative overflow-hidden rounded-2xl flex justify-center items-center bg-black">
             <img
               src={images[currentSlide]}
               alt={`Foto ${currentSlide + 1}`}
-              className="w-full max-h-96 md:max-h-[28rem] object-contain bg-black rounded-2xl transition-all duration-500 mx-auto"
+              className="max-w-full max-h-[80vh] object-contain rounded-2xl transition-all duration-500"
+              style={{ height: "auto", width: "auto" }}
             />
 
             {/* Navigation arrows */}
