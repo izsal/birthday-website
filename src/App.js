@@ -249,11 +249,11 @@ const BirthdayWebsite = () => {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 animate-pulse">
-            🎈 Happy Birthday 🎈
+            🎈 Happy Birthday PUANG ANDINI 🎈
           </h1>
-          <p className="text-lg md:text-xl text-pink-100">
+          {/* <p className="text-lg md:text-xl text-pink-100">
             Foto ke {currentSlide + 1} dari {images.length}
-          </p>
+          </p> */}
         </div>
 
         {/* Image slideshow */}
