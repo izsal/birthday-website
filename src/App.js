@@ -15,7 +15,7 @@ import foto5 from "./images/foto5.png";
 import foto6 from "./images/foto6.png";
 import foto7 from "./images/foto7.png";
 import foto8 from "./images/foto8.png";
-import foto9 from "./images/foto9.jpg";
+import foto9 from "./images/foto9.JPG";
 import foto10 from "./images/foto10.JPG";
 
 const BirthdayWebsite = () => {
