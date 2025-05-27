@@ -249,7 +249,7 @@ const BirthdayWebsite = () => {
         {/* Header */}
         <div className="mb-8">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 animate-pulse">
-            🎈 Perjalanan Indah Kita 🎈
+            🎈 Happy Birthday 🎈
           </h1>
           <p className="text-lg md:text-xl text-pink-100">
             Foto ke {currentSlide + 1} dari {images.length}
