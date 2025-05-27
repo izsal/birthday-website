@@ -7,16 +7,16 @@ import {
   ChevronLeft,
   ChevronRight,
 } from "lucide-react";
-import foto1 from "./images/1163faa6-0658-4cb5-9caa-ce5d7e3f056e.JPG";
-import foto2 from "./images/1c8474c4-e3b7-4b23-9683-cb906565fc3c.JPG";
-import foto3 from "./images/1FFFD20D-6F86-4963-9099-A2964BD0FE95.JPG";
-import foto4 from "./images/cd17c715-bfe5-45c5-bb07-94fb8bda7b0c.JPG";
-import foto5 from "./images/IMG_0850.PNG";
-import foto6 from "./images/IMG_0950.PNG";
-import foto7 from "./images/IMG_0949.PNG";
-import foto8 from "./images/IMG_0709.PNG";
-import foto9 from "./images/IMG_9263.PNG";
-import foto10 from "./images/IMG_9797.JPG";
+import foto1 from "./images/foto1.JPG";
+import foto2 from "./images/foto2.JPG";
+import foto3 from "./images/foto3.JPG";
+import foto4 from "./images/foto4.JPG";
+import foto5 from "./images/foto5.png";
+import foto6 from "./images/foto6.png";
+import foto7 from "./images/foto7.png";
+import foto8 from "./images/foto8.png";
+import foto9 from "./images/foto9.png";
+import foto10 from "./images/foto10.JPG";
 
 const BirthdayWebsite = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,7 +50,7 @@ const BirthdayWebsite = () => {
           }
           return next;
         });
-      }, 2000); // Ganti gambar setiap 2 detik
+      }, 3000); // Ganti gambar setiap 3 detik
 
       return () => clearInterval(interval);
     }
